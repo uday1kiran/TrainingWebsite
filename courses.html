@@ -159,9 +159,11 @@
   <script src="assets/js/main.js"></script>
   <script>
     $(function(){
-      $("#header-part").load("include_files/header.html");
-      $("#footer-part").load("include_files/footer.html");
+    $("#header-part").load("include_files/header.html", function() {
+        $("#courses-tab").addClass("active");
     });
+    $("#footer-part").load("include_files/footer.html");
+});
     </script>
 </body>
 
