@@ -27,8 +27,7 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-  <!-- include files js script -->
-  <script src="assets/js/csi.min.js"></script>
+
   <!-- =======================================================
   * Template Name: Mentor - v2.1.0
   * Template URL: https://bootstrapmade.com/mentor-free-education-bootstrap-theme/
@@ -40,7 +39,7 @@
 <body>
 
   <!-- ======= Header ======= -->
-<div data-include="header.html"></div>
+<div id="header-part"></div>
 
   <main id="main">
 
@@ -125,7 +124,7 @@
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
-  <div data-include="footer.html"></div>
+  <div id="footer-part"></div>
   <a href="#" class="back-to-top"><i class="bx bx-up-arrow-alt"></i></a>
   <div id="preloader"></div>
   <!-- Vendor JS Files -->
@@ -140,7 +139,12 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-
+  <script>
+    $(function(){
+      $("#header-part").load("include_files/header.html");
+      $("#footer-part").load("include_files/footer.html");
+    });
+    </script>
 </body>
 
 </html>
