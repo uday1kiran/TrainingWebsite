@@ -39,7 +39,7 @@
 <body>
 
   <!-- ======= Header ======= -->
-   <%@ include file="include_files/header.html" %>
+   <%@ include file="include_files/header.jsp" %>
 
   <main id="main">
     <!-- ======= Breadcrumbs ======= -->

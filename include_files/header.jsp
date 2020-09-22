@@ -1,3 +1,9 @@
+<%
+String uri = request.getRequestURI();
+String page_name = uri.substring(uri.lastIndexOf("/")+1);
+System.out.println("Page Name: "+page_name);
+%>
+
 <header id="header" class="fixed-top">
   <div class="container d-flex align-items-center">
     <h1 class="logo mr-auto"><a href="index.jsp">Euc Stories</a></h1>
@@ -5,12 +11,12 @@
     <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
     <nav class="nav-menu d-none d-lg-block">
       <ul>
-        <li class="active"><a href="index.jsp">Home</a></li>
-        <li><a href="about.jsp">About</a></li>
-        <li><a href="courses.jsp">Courses</a></li>
-        <li><a href="trainers.jsp">Trainers</a></li>
-        <li><a href="events.jsp">Events</a></li>
-        <li><a href="pricing.jsp">Pricing</a></li>
+        <li <% if("index.jsp".equals(page_name) || page_name.length()==0) out.print("class=\"active\""); %>><a href="index.jsp">Home</a></li>
+        <li <% if("about.jsp".equals(page_name)) out.print("class=\"active\""); %>><a href="about.jsp">About</a></li>
+        <li <% if("courses.jsp".equals(page_name)) out.print("class=\"active\""); %>><a href="courses.jsp">Courses</a></li>
+        <li <% if("trainers.jsp".equals(page_name)) out.print("class=\"active\""); %>><a href="trainers.jsp">Trainers</a></li>
+        <li <% if("events.jsp".equals(page_name)) out.print("class=\"active\""); %>><a href="events.jsp">Events</a></li>
+        <li <% if("pricing.jsp".equals(page_name)) out.print("class=\"active\""); %>><a href="pricing.jsp">Pricing</a></li>
         <li class="drop-down"><a href="">Drop Down</a>
           <ul>
             <li><a href="#">Drop Down 1</a></li>
@@ -28,9 +34,10 @@
             <li><a href="#">Drop Down 4</a></li>
           </ul>
         </li>
-        <li><a href="contact.jsp">Contact</a></li>
+        <li <% if("contact.jsp".equals(page_name)) out.print("class=\"active\""); %>><a href="contact.jsp">Contact</a></li>
       </ul>
     </nav>
     <!-- .nav-menu -->
     <a href="courses.jsp" class="get-started-btn">Get Started</a> </div>
+
 </header>
