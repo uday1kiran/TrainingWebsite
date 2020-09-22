@@ -67,20 +67,31 @@
             <img src="assets/img/about.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
-            <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+            <h3>Tune your career with Experts</h3>
             <p class="font-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
+              EUC Stories is best known for delivering coporate training to many startups and individuals with experienced industry experts.
+              We are providing ClassRoom and Online Trainings on wide range of professional educational services which are totally cost effective and job oriented.
             </p>
             <ul>
-              <li><i class="icofont-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-              <li><i class="icofont-check-circled"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-              <li><i class="icofont-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+              <li><i class="icofont-check-circled"></i> Data science</li>
+              <li><i class="icofont-check-circled"></i> Blockchain</li>
+              <li><i class="icofont-check-circled"></i> DevOps</li>
+              <li><i class="icofont-check-circled"></i> Hadoop</li>
+              <li><i class="icofont-check-circled"></i> Citrix</li>
+              <li><i class="icofont-check-circled"></i> Application Packaging</li>
+              <li><i class="icofont-check-circled"></i> SCCM(Microsoft System Center Configuration Manager)</li>
+              <li><i class="icofont-check-circled"></i> Python with Automation and Django</li>
+              <li><i class="icofont-check-circled"></i> Java Full Stack</li>
+              <li><i class="icofont-check-circled"></i> AWS Administration</li>
+              <li><i class="icofont-check-circled"></i> Azure Administration with Azure DevOps</li>
+
             </ul>
             <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+              We provide our students with high-quality learning aids that include books as well as CDs with well managed sitting arrangements.
             </p>
-            <a href="about.jsp" class="learn-more-btn">Learn More</a>
+            <p>Apart from training, we provide many other corporate services.<a href="#footer" class="back-to-up" style="display: inline;"><i class="bx bx-down-arrow-alt"></i></a></p>
+            <a href="#why-us" class="learn-more-btn">Learn More</a>
+            <a href="courses.jsp" class="learn-more-btn">List of Courses</a>
           </div>
         </div>
 
