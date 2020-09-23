@@ -1,3 +1,3 @@
 <%
-pageContext.setAttribute("website_title","EUC & CC Stories");
+pageContext.setAttribute("website_title","Simplex Learning");
 %>
