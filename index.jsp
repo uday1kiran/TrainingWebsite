@@ -70,7 +70,7 @@
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
             <h3>Tune your career with Experts</h3>
             <p class="font-italic">
-              EUC Stories is best known for delivering coporate training to many startups and individuals with experienced industry experts.
+              EUC Stories is best known for delivering corporate training to many startups and individuals with experienced industry experts.
               We are providing ClassRoom and Online Trainings on wide range of professional educational services which are totally cost effective and job oriented.
             </p>
             <ul>
