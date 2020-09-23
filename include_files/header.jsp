@@ -1,5 +1,5 @@
 <%
-//String website_title = "EUC & CC Stories";
+//String website_title = "Simplex Learning";
 String uri = request.getRequestURI();
 String page_name = uri.substring(uri.lastIndexOf("/")+1);
 System.out.println("Page Name: "+page_name);
