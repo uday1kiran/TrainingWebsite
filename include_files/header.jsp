@@ -1,12 +1,15 @@
 <%
+//String website_title = "EUC & CC Stories";
 String uri = request.getRequestURI();
 String page_name = uri.substring(uri.lastIndexOf("/")+1);
 System.out.println("Page Name: "+page_name);
 %>
 
+<%@ include file="pageContext_vars.jsp" %>
+
 <header id="header" class="fixed-top">
   <div class="container d-flex align-items-center">
-    <h1 class="logo mr-auto"><a href="index.jsp">Euc Stories</a></h1>
+    <h1 class="logo mr-auto"><a href="index.jsp"><%=pageContext.getAttribute("website_title")%></a></h1>
     <!-- Uncomment below if you prefer to use an image logo -->
     <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
     <nav class="nav-menu d-none d-lg-block">

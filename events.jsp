@@ -2,10 +2,11 @@
 <html lang="en">
 
 <head>
+  <%@ include file="include_files/pageContext_vars.jsp" %>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Events - EUC Stories</title>
+  <title>Events - <%=pageContext.getAttribute("website_title")%></title>
   <meta content="" name="descriptison">
   <meta content="" name="keywords">
 
