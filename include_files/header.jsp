@@ -21,7 +21,7 @@ System.out.println("Page Name: "+page_name);
         <li <% if("events.jsp".equals(page_name)) out.print("class=\"active\""); %>><a href="events.jsp">Events</a></li>
         <li <% if("pricing.jsp".equals(page_name)) out.print("class=\"active\""); %>><a href="pricing.jsp">Pricing</a></li>
         <li class="drop-down"><a href="">Drop Down</a>
-          <ul>
+          <!--<ul>
             <li><a href="#">Drop Down 1</a></li>
             <li class="drop-down"><a href="#">Deep Drop Down</a>
               <ul>
@@ -35,7 +35,7 @@ System.out.println("Page Name: "+page_name);
             <li><a href="#">Drop Down 2</a></li>
             <li><a href="#">Drop Down 3</a></li>
             <li><a href="#">Drop Down 4</a></li>
-          </ul>
+          </ul>-->
         </li>
         <li <% if("contact.jsp".equals(page_name)) out.print("class=\"active\""); %>><a href="contact.jsp">Contact</a></li>
       </ul>
