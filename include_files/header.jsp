@@ -20,8 +20,8 @@ System.out.println("Page Name: "+page_name);
         <li <% if("trainers.jsp".equals(page_name)) out.print("class=\"active\""); %>><a href="trainers.jsp">Trainers</a></li>
         <li <% if("events.jsp".equals(page_name)) out.print("class=\"active\""); %>><a href="events.jsp">Events</a></li>
         <li <% if("pricing.jsp".equals(page_name)) out.print("class=\"active\""); %>><a href="pricing.jsp">Pricing</a></li>
-        <li class="drop-down"><a href="">Drop Down</a>
-          <!--<ul>
+        <!--<li class="drop-down"><a href="">Drop Down</a>
+          <ul>
             <li><a href="#">Drop Down 1</a></li>
             <li class="drop-down"><a href="#">Deep Drop Down</a>
               <ul>
