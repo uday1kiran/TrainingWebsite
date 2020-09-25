@@ -190,7 +190,7 @@
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
-   <%@ include file="include_files/footer.html" %>
+   <%@ include file="include_files/footer.jsp" %>
    <!-- End Footer -->
 
   <a href="#" class="back-to-top"><i class="bx bx-up-arrow-alt"></i></a>

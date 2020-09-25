@@ -5,13 +5,13 @@
         <div class="row">
 
           <div class="col-lg-3 col-md-6 footer-contact">
-            <h3>Mentor</h3>
+            <h3><%=pageContext.getAttribute("website_title")%></h3>
             <p>
               A108 Adam Street <br>
               New York, NY 535022<br>
               United States <br><br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
+              <strong>Phone:</strong> <%=pageContext.getAttribute("website_phone")%><br>
+              <strong>Email:</strong> <%=pageContext.getAttribute("website_email")%><br>
             </p>
           </div>
 
@@ -53,14 +53,14 @@
 
       <div class="mr-md-auto text-center text-md-left">
         <div class="copyright">
-          &copy; Copyright <strong><span>Mentor</span></strong>. All Rights Reserved
+          &copy; Copyright <strong><span><%=pageContext.getAttribute("website_title")%></span></strong>. All Rights Reserved
         </div>
         <div class="credits">
           <!-- All the links in the footer should remain intact. -->
           <!-- You can delete the links only if you purchased the pro version. -->
           <!-- Licensing information: https://bootstrapmade.com/license/ -->
           <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/mentor-free-education-bootstrap-theme/ -->
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+          <!--Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>-->
         </div>
       </div>
       <div class="social-links text-center text-md-right pt-3 pt-md-0">
