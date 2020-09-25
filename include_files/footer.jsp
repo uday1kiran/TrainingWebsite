@@ -7,9 +7,8 @@
           <div class="col-lg-3 col-md-6 footer-contact">
             <h3><%=pageContext.getAttribute("website_title")%></h3>
             <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br><br>
+			<%=pageContext.getAttribute("website_address")%>
+              <br><br>
               <strong>Phone:</strong> <%=pageContext.getAttribute("website_phone")%><br>
               <strong>Email:</strong> <%=pageContext.getAttribute("website_email")%><br>
             </p>

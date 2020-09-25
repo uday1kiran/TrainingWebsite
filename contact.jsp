@@ -67,7 +67,7 @@
               <div class="address">
                 <i class="icofont-google-map"></i>
                 <h4>Location:</h4>
-                <p>Block B, Q City, Nanakramguda, Hyderabad, Telangana 500032</p>
+                <p><%=pageContext.getAttribute("website_address")%></p>
               </div>
 
               <div class="email">
@@ -79,7 +79,7 @@
               <div class="phone">
                 <i class="icofont-phone"></i>
                 <h4>Call:</h4>
-                <p>+91 5589 55488 55s</p>
+                <p><%=pageContext.getAttribute("website_phone")%></p>
               </div>
 
             </div>
