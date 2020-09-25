@@ -63,5 +63,11 @@ public synchronized static boolean sendMail(String userName,String passWord,Stri
 	String[] cc={"udayonekiran@yahoo.com"};
 	String[] bcc={"uday1kiran@yahoo.com"};
 	
-	sendMail("buildprocesserwin@gmail.com","erwin@123","smtp.gmail.com","465","true","true",true,"javax.net.ssl.SSLSocketFactory","false",to,cc,bcc,"hi baba don't send virus mails..","This is my style...of reply..If u send virus mails..");
+	String message =  "Message from: "+request.getParameter("name")+"\n"+"Message sender: "+request.getParameter("email")+"\n"+"Message: "+request.getParameter("message");
+	String subject = request.getParameter("subject");
+	System.out.println(message);
+	System.out.println(subject);
+	
+	sendMail("buildprocesserwin@gmail.com","erwin@123","smtp.gmail.com","465","true","true",true,"javax.net.ssl.SSLSocketFactory","false",to,cc,bcc,subject,message);
+	
 %>
