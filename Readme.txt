@@ -14,3 +14,8 @@ Libraries:
 for sendmail.jsp:
 javax.mail.jar
 activation-1.1.jar
+
+google forms:
+---
+https://www.youtube.com/watch?v=ZAkESLyXO74
+https://youtu.be/0udw0nol6Po
