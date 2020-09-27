@@ -7,7 +7,7 @@
   "use strict";
 
   $('form.php-email-form').submit(function(e) {
-    e.preventDefault();
+    //e.preventDefault();
     
     var f = $(this).find('.form-group'),
       ferror = false,
@@ -109,7 +109,7 @@
     this_form.find('.error-message').slideUp();
     this_form.find('.loading').slideDown();
 
-    if ( $(this).data('recaptcha-site-key') ) {
+    /*if ( $(this).data('recaptcha-site-key') ) {
       var recaptcha_site_key = $(this).data('recaptcha-site-key');
       grecaptcha.ready(function() {
         grecaptcha.execute(recaptcha_site_key, {action: 'php_email_form_submit'}).then(function(token) {
@@ -118,11 +118,11 @@
       });
     } else {
       php_email_form_submit(this_form,action,this_form.serialize());
-    }
-    
+    }*/
+     
     return true;
   });
-
+     
   function php_email_form_submit(this_form, action, data) {
     $.ajax({
       type: "POST",
@@ -160,6 +160,7 @@
       this_form.find('.loading').slideUp();
       this_form.find('.error-message').slideDown().html(error_msg);
     });
-  }
-
+  }  
+     
 })(jQuery);
+     
