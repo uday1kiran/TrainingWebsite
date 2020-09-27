@@ -7,7 +7,7 @@
   "use strict";
 
   $('form.php-email-form').submit(function(e) {
-    //e.preventDefault();
+    e.preventDefault();
     
     var f = $(this).find('.form-group'),
       ferror = false,
@@ -120,7 +120,7 @@
       php_email_form_submit(this_form,action,this_form.serialize());
     }*/
      
-    return true;
+    //return true;
   });
      
   function php_email_form_submit(this_form, action, data) {
